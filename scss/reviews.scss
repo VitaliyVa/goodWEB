@@ -1,0 +1,101 @@
+.reviews {
+	background: url('../img/bg-rev.png') no-repeat center top / cover;
+	padding-bottom: 65px;
+	.btn {
+		margin: 0 auto;
+		margin-top: 40px;
+
+	}
+	
+	.main__title {
+		padding-top: 40px;
+		max-width: 245px;
+		text-align: center;
+	}
+}
+
+.comment-wrap {
+	display: flex;
+	margin-top: 70px;
+	justify-content: space-between;
+}
+.title-reviews {
+	margin-top: 50px;
+}
+.comment-profile {
+	position: relative;
+	/* Style for "Прямоуголь" */
+	width: 363px;
+	
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 30px;
+	font-size: 16px;
+	font-weight: 500;
+}
+.mini-icon {
+    position: absolute;
+    top: -19px;
+    left: 10px;
+}
+.sub-2 {
+	
+}
+
+
+.bold-1 {
+	font-weight: 700;
+}
+
+
+@media (max-width: 1043px) {
+	.comment-wrap {
+		
+		align-items: center;
+		flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+	}
+	.comment-profile {
+		margin-bottom: 20px;
+		
+	}
+}
+@media (max-width: 1022px) {
+	.btn-surp {
+    margin-right: 150px;
+    margin-top: 40px;
+	}
+}
+@media (max-width: 669px) {
+	.last-block-wrap {
+		flex-direction: column;
+		align-items: center;
+	}
+	.surp-suptitle {
+		width: 310px;
+	}
+	.surp-right {
+		width: 300px;
+	}
+	.btn-surp {
+		margin-right: 0;
+	}
+}
+@media (max-width: 824px) {
+	.surprise-block {
+		flex-direction: column;
+	}
+	.surp-left {
+		margin-top: 65px;
+		img {
+			width: auto;
+		}
+	}
+}
+@media (max-width: 363px) {
+	.comment-profile {
+		width: 310px;
+	}
+}
